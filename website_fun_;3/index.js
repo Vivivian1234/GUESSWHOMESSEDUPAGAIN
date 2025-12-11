@@ -57,7 +57,7 @@ document.getElementById("userSubmit").addEventListener("click", function (event)
         localStorage.setItem("dob", dob);
         localStorage.setItem("password", password);
 
-        window.location.href = "results.html";
+        window.location.href = "homepage.html";
     }
 });
 

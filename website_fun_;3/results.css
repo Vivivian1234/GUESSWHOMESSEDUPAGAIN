@@ -32,7 +32,7 @@ section {
     height: auto;
 }
 
-.results-box {
+.homepage-box {
     position: relative;
     width: 400px;
     padding: 40px 30px;
@@ -43,7 +43,7 @@ section {
     opacity: 0; /* for fade-in */
 }
 
-.results-box h2 {
+.homepage-box h2 {
     font-size: 3em;
     color: white;
     width: 400px;
@@ -52,7 +52,7 @@ section {
     margin-right: -205px;
 }
 
-.results-list {
+.homepage-list {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ section {
     margin-right: -70px;
 }
 
-.results-list p {
+.homepage-list p {
     position: relative;
     padding-left: 35px;
     font-size: 1em;
@@ -71,7 +71,7 @@ section {
     justify-content: space-between;
 }
 
-.results-list ion-icon {
+.homepage-list ion-icon {
     position: absolute;
     left: 5px;
     font-size: 1.2em;
@@ -106,27 +106,27 @@ section {
 }
 
 @media (max-width: 400px) {
-    .results-box {
+    .homepage-box {
         width: 100dvw;
         border-radius: 0;
         height: 100vh;
         padding: 30px 20px;
     }
 
-    .results-list p {
+    .homepage-list p {
         font-size: 0.95em;
     }
 }
 
 @media (max-height: 480px) {
-    .results-box {
+    .homepage-box {
         width: 100dvw;
         border-radius: 0;
         height: 100vh;
         padding: 20px;
     }
 
-    .results-list p {
+    .homepage-list p {
         font-size: 0.95em;
     }
 }

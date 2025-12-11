@@ -26,17 +26,17 @@ function togglePassword() {
 }
 
 window.onload = () => {
-    const box = document.querySelector(".results-box");
+    const box = document.querySelector(".homepage-box");
     box.style.opacity = "1";
 };
 
-const resultsBox = document.querySelector(".results-box");
-resultsBox.style.opacity = 0;
+const homepageBox = document.querySelector(".homepage-box");
+homepageBox.style.opacity = 0;
 window.onload = () => {
 
-    resultsBox.style.opacity = 1;
+    homepageBox.style.opacity = 1;
 
-const fields = document.querySelectorAll(".results-list p");
+const fields = document.querySelectorAll(".homepage-list p");
 fields.forEach((field, index) => {
     field.style.opacity = 1;
 
