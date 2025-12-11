@@ -83,7 +83,7 @@ function togglePassword() {
 }
 
 
-const loginBox = document.querySelector(".main");
+const loginBox = document.querySelector(".login-box");
 loginBox.style.opacity = 0;
 
 window.onload = () => {

@@ -17,7 +17,7 @@ section {
     background-position: center;
 }
 
-.main {
+.login-box {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ section {
     height: 100vh;
 }
 
-.main input {
+.login-box input {
     margin-bottom: 10px;
 }
 
@@ -36,7 +36,7 @@ h2 {
     color: white;
     text-align: center;
     transform: translateY(-60px);
-    margin-right: 120px;
+    margin-right: 125px;
 }
 
 .input-box {
@@ -117,7 +117,7 @@ button:hover {
 }
 
 @media (max-width: 400px) {
-    .main {
+    .login-box {
         height: 100vh;
         border: none;
         border-radius: 0;
@@ -130,7 +130,7 @@ button:hover {
 }
 
 @media (max-height: 460px) {
-    .main {
+    .login-box {
         width: 100dvw;
         border: none;
         border-radius: 0;
