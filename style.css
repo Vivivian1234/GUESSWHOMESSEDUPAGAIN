@@ -1,0 +1,13 @@
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  flex: 1;
+  background: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
